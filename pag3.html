@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Sport Club Internacional</title>
+</head>
+<body>
+    <header>
+        <img src="logointer.png" alt="Logo do Site" width="7%" align="left">
+        <nav>
+            <ul>
+                <li><a href="Index.html">&nbsp;Home&nbsp;</a></li>
+                <li><a href="pag1.html">&nbsp;Clássico Grenal&nbsp;</a></li>
+                <li><a href="pag2.html">&nbsp;Título&nbsp;</a></li>
+                <li><a href="pag3.html">&nbsp;Fale com a gente&nbsp;</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="h1_4">
+            Nos conte um pouco com foi a sua experiência em nosso site
+            e o que achou sobre, seu feedback é muito importante!
+        </h1>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="opiniao">Como podemos melhorar?</label>
+            <textarea id="opiniao" name="opiniao" rows="4" required></textarea>
+
+            <label for="categoria">Nos classifique:</label>
+                <select id="categoria" name="categoria">
+                    <option value="Bom">Bom</option>
+                    <option value="Intermediário">Intermediário</option>
+                    <option value="Ruim">Ruim</option>
+                </select>
+            <label>Dúvida:</label>
+            <label for="voltaria">Voltaria em nosso site?</label>
+            <input type="checkbox" id="voltaria" name="duvida" value="voltaria">
+    
+                <label for="faixa etaria">Faixa Etária:</label>
+            <input type="radio" id="rock" name="faixa etaria" value="jovem">
+                <label for="jovem">Jovem</label>
+            <input type="radio" id="adulto" name="faixa etaria" value="adulto">
+                <label for="adulto">Adulto(a)</label>
+            <input type="radio" id="idoso" name="faixa etaria" value="idoso">
+                <label for="idoso">Idoso(a)</label>
+
+            <input type="submit" value="Enviar Opinião">
+        </form>
+    </main>
+    <footer>
+        <section id="informacoes">
+            <p>Telefone: (53) 1234-5678</p>
+            <p>Email: gab866@gmail.com</p>
+            <p>Endereço: Av. Padre Cacique, 891, Porto Alegre - RS</p>
+        </section>
+    </footer>
+</body>
+</html>
